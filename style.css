@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 80vw;
+    font-family: 'Nosifer', sans-serif;
+
+}
+.navbar{ 
+    display:flex;
+    height: 21px;
+   
+
+}
+.navbar li{
+    list-style:none;
+    margin:0 12px;
+}
+.topleft{
+    width:50%;
+  height: 21px;
+    
+
+}
+.topright{
+    width:50%;
+    height: 21px;;
+    
+}
+.section1{
+   min-height:100vh;
+
+}
+ 
+.section1 h1{
+    font-size: 2rem;
+}
+.section2{
+    
+    padding-left: 63px;
+    padding-right: 63px;
+}
+.section2 h1{
+    font-size: 2rem;
+}
+.logo{
+    font-size: 1.3rem;
+}
+.dumbellimg{
+    width: 89px;
+}
+.topright.gymimg{
+    width:666px;
+}
+.box{
+    padding:8px 0;
+    margin:  12px 22px;
+    min-width: 20vw;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 8px;
+   
+    
+}
+.highlighted{
+    font-size:1.5rem;
+    font-weight:bolder;
+}
+
+
+.box ul{
+    list-style: none; /* Remove bullet points */
+    text-align: center;
+}
+.box ul li{
+    margin: 12px 2px;
+    
+}
+.box h1{
+    font-size:2rem;
+    
+}
